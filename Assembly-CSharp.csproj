@@ -47,10 +47,55 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ControlCubeScripts.cs" />
+     <Compile Include="Assets\Scripts\DrawGraph.cs" />
      <Compile Include="Assets\Scripts\UH.cs" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingCurves.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingCustom.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingEarth.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingImages.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingMaze.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingMenu.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingMenuButton.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingP5_Snows.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingPrefabs.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingPrimitives.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingPteridophyte.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingRunner.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingSea.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingStars.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingTemplate.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingTexts.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingTunnel.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\Samples\UnicessingZenTexts.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UCamera.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UConstants.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UGraphics.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UInput.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UMath.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\Core\UResource.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\UImage.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\UMaterials.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\UMatrix.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\UShape.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\USubGraphics.cs" />
+     <Compile Include="Assets\Unicessing\Scripts\System\UWireframe.cs" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdInstanced.shader" />
+     <None Include="Assets\Unicessing\README_jp.txt" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdAdd.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\StrokeAdd.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillUnlitTrans.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\CullFront.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdAddInstanced.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\StrokeTrans.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillUnlitOpaque.shader" />
+     <None Include="Assets\Unicessing\README_en.txt" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillUnlitOpaqueInstanced.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\StrokeOpaque.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillUnlitAdd.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdTransInstanced.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillP5.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdTrans.shader" />
+     <None Include="Assets\Unicessing\Resources\Unicessing\Materials\Shader\FillStdOpaque.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -65,9 +110,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>

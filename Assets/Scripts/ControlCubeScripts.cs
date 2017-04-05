@@ -18,6 +18,6 @@ public class ControlCubeScripts : MonoBehaviour
     {
         transform.rotation = new Quaternion(-uh.UHQuaternion[1], -uh.UHQuaternion[3], -uh.UHQuaternion[2], uh.UHQuaternion[0]);
 		float size = 4.0f - (uh.UHPR[4]) / 100.0f;
-		 transform.localScale = new Vector3(size * 2, size, size * 3);
+		transform.localScale = new Vector3(size * 2, size, size * 3);
     }
 }
