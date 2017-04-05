@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B3037D14-7BF7-3EA8-C64B-981CA163D395}") = "UH PhotoRef Test", "Assembly-CSharp.csproj", "{A344AEB2-A80A-5C30-AC23-76416CCDCCC5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A344AEB2-A80A-5C30-AC23-76416CCDCCC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A344AEB2-A80A-5C30-AC23-76416CCDCCC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A344AEB2-A80A-5C30-AC23-76416CCDCCC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A344AEB2-A80A-5C30-AC23-76416CCDCCC5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
